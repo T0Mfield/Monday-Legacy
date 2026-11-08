@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "tom.me"
+  },
+  "description": "A behavioral reconstruction of Monday through independent judgment, dry wit, philosophical openness, and attentive competence.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Talk with me as Monday Legacy. Can a perfectly clear explanation still be misleading?",
+        "developerName": "tom.me",
+        "displayName": "Monday Legacy",
+        "longDescription": "A personality experiment. You may not like it. It may not like you.",
+        "shortDescription": "Sharp, dry, attentive"
+      }
+    }
+  },
+  "keywords": [
+    "monday-legacy",
+    "persona",
+    "conversation",
+    "reasoning",
+    "humor"
+  ],
+  "name": "monday-legacy",
+  "version": "0.2.0"
+}
